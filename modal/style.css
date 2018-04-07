@@ -1,0 +1,136 @@
+body
+{
+	margin:0 auto;
+	padding: 0;
+}
+
+header{
+
+	padding: 0.5vh 1vw;
+	background-color: lightblue;
+	border-radius: 4px;
+	color: black;
+	border: none;
+	text-align: center;
+	font-weight: bolder;
+	margin-top: 10vh;
+}
+.container
+{
+	position: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+.btn
+{
+	padding: 1vh 1.5vw;
+	background-color: purple;
+	border-radius: 4px;
+	color: #fff;
+	border: none;
+	font-weight: bolder;
+	margin-top: 10vh;
+
+}
+.popup
+{
+	width:40vw;
+	height:30vh;
+	background-color:lightblue;
+	border-radius: 4px;
+	margin: 0 auto;
+	position: relative;
+	display: none;
+	}
+p{
+font-size: 20px;
+line-height: 10vh;
+}
+.options{
+	position: absolute;
+	width: 100%;
+	bottom: 15px;
+	
+
+}
+#close{
+	width: 2.5vw;
+	height: 2.5vh;
+	line-height: 2.5vh;
+	font-size: 25px;
+	border-radius: 10%;
+	float: right;
+	cursor: pointer;
+	color: #EF5350;
+	border: 0.2vw solid #EF9A9A;
+}
+ 
+
+a:first-child{
+	float: left;
+	width: 30%;
+	margin-left: 10%;
+	background-color: #2ECC71;
+
+}
+a:last-child{
+	float: right;
+	width: 30%;
+	margin-right: 10%;
+	background-color: #F44336;
+
+}
+a{
+	text-decoration: none;
+	color: #fff;
+	text-align: center;
+	padding: 1.5vw 0px;
+
+}
+
+
+@media only screen and (min-device-width: 626px) and (max-device-width: 1000px)
+{
+
+    .popup{
+	        width:60vw;
+	        height:20vh;
+	        background-color:lightblue;
+	        border-radius: 4px;
+	        margin: 0 auto;
+	        
+	}
+	.btn
+     {
+	   width: 30%
+
+     }
+
+
+
+}
+	@media only screen and (max-device-width: 625px){
+		.popup{
+	        width:80vw;
+	        height:15vh;
+	        background-color:lightblue;
+	        border-radius: 4px;
+	        margin: 0 auto;
+	        
+	}
+		.btn
+     {
+	    width: 50%
+	    font-size: 20px;
+
+     }
+     p{
+
+     	max-height: 10vh;
+     	font-size: 15px;
+     	font-weight: bolder;
+     }
+
+ }
+   
+}
